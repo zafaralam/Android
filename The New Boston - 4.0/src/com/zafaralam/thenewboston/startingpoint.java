@@ -15,11 +15,10 @@ public class startingpoint extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        setVariable();
+        setValues();
         
         add.setOnClickListener(new View.OnClickListener() {
 
-			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				//counter = counter + 1;
@@ -30,7 +29,6 @@ public class startingpoint extends Activity {
         
         sub.setOnClickListener(new View.OnClickListener() {
 			
-			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				counter--;
@@ -39,7 +37,7 @@ public class startingpoint extends Activity {
 		});
     }
     
-    public void setVariable() {
+    public void setValues() {
     	counter = 0;
     	add = (Button) findViewById(R.id.bAdd);
     	sub = (Button) findViewById(R.id.bSub);

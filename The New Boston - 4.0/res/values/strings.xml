@@ -2,7 +2,7 @@
 <resources>
 
     <string name="hello">Your Total is 0</string>
-    <string name="app_name">The New Boston</string>
+    <string name="app_name">Zafar</string>
     <string name="bAdd">Add One</string>
     <string name="bSub">Subtract One</string>
     <string name="hinEtCommands">Type a command</string>
